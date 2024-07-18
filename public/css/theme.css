@@ -1,0 +1,75 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* General Styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #e66465, #9198e5);
+}
+
+/* Navigation Bar */
+.bg-light {
+    background: linear-gradient(to right, #ffecd2, #fcb69f) !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    color: #ff6f61 !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    color: #fff !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link:hover {
+    color: #ff6f61 !important;
+}
+
+/* Primary Button */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* Table Cells in Odd Rows */
+table tr:nth-child(odd) td {
+    background: linear-gradient(to right, #f8ffae, #43c6ac);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lobster', cursive;
+    color: #ff6f61;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Links */
+a {
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Fieldset Legends */
+legend {
+    padding: 10px 0;
+    font-family: 'Lobster', cursive;
+    color: #ff6f61;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
