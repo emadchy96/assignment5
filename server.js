@@ -135,4 +135,4 @@ data.initialize().then(function(){
     console.log("unable to start server: " + err);
 });
 
-module.exports(app);
+module.exports = app;
