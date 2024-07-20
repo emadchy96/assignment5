@@ -43,7 +43,7 @@ app.engine('.hbs', exphbs.engine({
 
 app.set('view engine', '.hbs');
 
-app.use(express.static("public"));
+app.use(express.static(path.join(path.resolve(), "public")));
 app.use(express.urlencoded({extended: true}));
 
 app.use(function(req,res,next){
@@ -135,3 +135,4 @@ data.initialize().then(function(){
     console.log("unable to start server: " + err);
 });
 
+module.exports(app);
